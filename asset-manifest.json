@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/amazon-clone-in-react/static/css/main.bd39fe40.chunk.css",
+    "main.js": "/amazon-clone-in-react/static/js/main.755b8407.chunk.js",
+    "main.js.map": "/amazon-clone-in-react/static/js/main.755b8407.chunk.js.map",
+    "runtime-main.js": "/amazon-clone-in-react/static/js/runtime-main.f8ca0bf5.js",
+    "runtime-main.js.map": "/amazon-clone-in-react/static/js/runtime-main.f8ca0bf5.js.map",
+    "static/js/2.f930b61d.chunk.js": "/amazon-clone-in-react/static/js/2.f930b61d.chunk.js",
+    "static/js/2.f930b61d.chunk.js.map": "/amazon-clone-in-react/static/js/2.f930b61d.chunk.js.map",
+    "index.html": "/amazon-clone-in-react/index.html",
+    "precache-manifest.e6d02d1f00bd472225d6c26c5f35ae8a.js": "/amazon-clone-in-react/precache-manifest.e6d02d1f00bd472225d6c26c5f35ae8a.js",
+    "service-worker.js": "/amazon-clone-in-react/service-worker.js",
+    "static/css/main.bd39fe40.chunk.css.map": "/amazon-clone-in-react/static/css/main.bd39fe40.chunk.css.map",
+    "static/js/2.f930b61d.chunk.js.LICENSE.txt": "/amazon-clone-in-react/static/js/2.f930b61d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f8ca0bf5.js",
+    "static/js/2.f930b61d.chunk.js",
+    "static/css/main.bd39fe40.chunk.css",
+    "static/js/main.755b8407.chunk.js"
+  ]
+}
