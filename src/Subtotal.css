@@ -15,3 +15,15 @@
   border-color: #a88734 #9c7e31 #846a29;
   padding: 7px;
 }
+
+@media (max-width: 600px) {
+  .subtotal {
+    width: 70px;
+    height: 100px;
+    font-size: 11px;
+  }
+  .subtotal > button {
+    padding: 1px;
+    object-fit: contain;
+  }
+}

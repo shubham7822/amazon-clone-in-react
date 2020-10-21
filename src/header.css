@@ -67,3 +67,28 @@
   display: flex;
   justify-content: space-evenly;
 }
+
+@media (max-width: 600px) {
+  .header_option_mediaquery {
+    display: none;
+  }
+  .Header_email {
+    width: 60px;
+    padding-left: 4px;
+  }
+  .header_nav {
+    align-items: center;
+  }
+  .header_option {
+    padding: 1px;
+  }
+  .header_optionBucket {
+    margin-left: 40px;
+    flex-direction: column;
+  }
+  .header_logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+  }
+}

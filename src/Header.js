@@ -29,7 +29,9 @@ function Header() {
       <div className='header_nav'>
         <Link to={!user && "/login"} className='header_link'>
           <div onClick={login} className='header_option'>
-            <span className='header_optionLineOne'>hello,{user?.email}</span>
+            <span className='header_optionLineOne'>
+              hello,<p className='Header_email'>{user?.email}</p>
+            </span>
             <span className='header_optionLineTwo'>
               {user ? "Sign Out" : "Sign In"}
             </span>
@@ -37,14 +39,14 @@ function Header() {
         </Link>
 
         <Link to='/' className='header_link'>
-          <div className='header_option'>
+          <div className='header_option header_option_mediaquery'>
             <span className='header_optionLineOne'>Returns</span>
             <span className='header_optionLineTwo'> &orders</span>
           </div>
         </Link>
 
         <Link to='/' className='header_link'>
-          <div className='header_option'>
+          <div className='header_option header_option_mediaquery'>
             <span className='header_optionLineOne'>Your</span>
             <span className='header_optionLineTwo'>Prime</span>
           </div>

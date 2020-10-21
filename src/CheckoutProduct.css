@@ -26,3 +26,18 @@
   border: 1px solid;
   border-color: #a88734 #9c7e31 #846a29;
 }
+@media (max-width: 600px) {
+  .checkProduct_image {
+    width: 140px;
+    height: 140px;
+  }
+  .checkoutProduct {
+    width: 200px;
+  }
+  .checkoutProduct_info {
+    width: 250px;
+  }
+  .checkoutProduct_title {
+    font-size: 14px;
+  }
+}
